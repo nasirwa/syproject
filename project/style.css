@@ -1,0 +1,357 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    position: none;
+    
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+ }
+ body{
+    background-color: #140905;
+}
+ .nav1{
+   overflow: hidden;
+   height: 80px;
+   background-color: aqua;
+   display: inline-flex;
+}
+.logo{
+    display: inline-flex;
+    height:100px;
+    width: 1550px;
+    background-color: #a2d2ff;
+    animation: animated 3s linear infinite;
+    position: fixed;
+}
+.logo img{
+    margin-left: 30px;
+   margin-left: 60px;
+   height: 87px;
+   width: 100px;
+  
+}
+.reg{
+    margin-top: 20px;
+    color: black;
+    position: fixed;
+   margin-left: 1330px;
+   margin-bottom: 30px;;
+   font-size: 25px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: rgb(237, 163, 36);
+   width: 100px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-color: rgb(7, 7, 7);
+   text-decoration: none;
+   justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+.reg button{
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color:  rgb(237, 163, 36);
+    font-weight: 550;
+    transition-duration: 1s;
+}
+.reg button:hover{
+    background-color:  rgb(75, 243, 75);
+}
+.name{
+   margin-left: 400px;
+   font-size: 50px;
+   font-family: kanit; 
+}
+.nav2{
+    /* background-image: url(image\bg.jpg); */
+    background-color:white;
+    height: 40px;
+    width: 1550px;
+    position: fixed;
+    box-shadow: 1px 2px 10px 1px rgb(248, 161, 161);
+}
+.manu{
+    margin-left: 180px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    position: relative;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.manu:hover{
+    background-color:  rgb(135, 246, 135);  /*rgb(248, 161, 161)*/
+    color: rgb(79, 5, 251);
+}
+.manu1{
+    margin-top: 10px;
+
+}
+    
+.a{
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+
+}
+.heading h1{
+    color: hwb(29 6% 9%);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 70px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 50px;
+}
+.a-content{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+.a-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.a-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+.a-content button{
+    display: inline-block;
+    background-color: #ff4500;
+    color: #f8f8f8;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.a-content button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+}
+.a-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+@media screen and(max-width: 768px)
+{
+    .heading h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }   
+    .a{
+        margin: 0px;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+    .a-content{
+        width: 100%;
+        margin: 35px 0px;   
+     }
+     .a-content h2{
+        font-size: 30px;
+     }
+     .a-content p{
+        font-size: 18px;
+        margin-bottom: 20px;
+     }
+     .a-content button{
+        font-size: 16px;
+        padding: 8px 16px;
+     }
+     .a-image{
+        width: 100%;
+
+     }
+}
+@keyframes fadeInUp {
+    0%{
+        opacity: o;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: o;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: o1;
+        transform: translateY(0px);
+    }
+}
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+   .h1{
+       color: coral;
+   }
+   
+   .container {
+    width: 950px;
+    margin: 80px auto;
+    color: rgb(17, 2, 2);
+    line-height: 1.5;
+   }
+   
+   .text-center {
+    text-align: center;
+    color: rgb(219, 112, 20);
+   }
+   
+   .content {
+    display: flex;
+    margin-top: 40px;
+   }
+   
+   .icon {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    vertical-align: top;
+   }
+   
+   .icons1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 50% 50%;
+    padding: 15px;
+    vertical-align: top;
+   }
+   
+   .contact-info {
+    display: inline-block;
+    margin-left: 150px;
+    text-align: center;
+    padding: 4px 20px 0px 20px;
+   }
+
+   .contact-inf {
+    display: inline-block;
+    margin-left: 110px;
+    text-align: center;
+    padding: 4px 20px 0px 20px;
+   }
+   
+   .address-line {
+    margin-top: 40px;
+   }
+   
+   .col-1 {
+    width: 530px;
+   }
+   
+   .col-2 {
+    flex: 1 1 auto;
+    background-color: white;
+   }
+   
+   .form-container {
+    color: #000;
+    padding: 30px;
+   }
+   
+   .contact-info-title {
+    color: #01bdd4;
+   }
+
+   .add{
+    color: #01bdd4;
+    text-align: center;
+}
+   
+   .form-row {
+    padding-bottom: 30px;
+   }
+   
+   .form-field {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+   }
+   
+   .send-btn {
+    border: 0px;
+    padding: 12px 26px;
+    background-color: #01bdd4;
+    color: white;
+   }
+   .send-btn:hover{
+    background-color: chocolate;
+}
+.x{
+    text-align: center;
+}
+
+.loc a{
+    color: black;
+    text-decoration: none;  
+}
+
+.icons1 a{
+    color: black;
+    text-decoration: none;
+}
+   
+   @media all and (max-width: 1024px) {
+    .container {
+     width: auto;
+     padding: 30px;
+    }
+     .col-1 {
+     width: 360px;
+    } 
+   }
+   
+   @media all and (max-width: 700px) {
+    .content {
+     display: block;
+    }
+    .col-2 {
+     margin-top: 40px;
+    } 
+    .col-1{
+    width:100%;
+    }
+   }
+   
+   @media all and (max-width: 500px) {
+    .container {
+     padding: 10px;
+    }
